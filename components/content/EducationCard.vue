@@ -54,18 +54,21 @@ export default {
 }
 
 .education-card-image {
-  flex: 0 0 100px;
-  margin-right: 20px;
-  padding: 0 5px;
+  width: 70px; /* Adjust the width and height as needed */
+  height: 70px;
   border-radius: 50%;
-  overflow: hidden;
+  padding: 10px;
   background-color: white;
-  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
 }
 
 .education-card-image img {
-  width: 100%;
-  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 }
 .education-card-details {
   flex: 1;
