@@ -4,6 +4,9 @@ export default defineNuxtConfig({
     baseURL: '/',
     buildAssetsDir: 'assets',
   },
+  colorMode: {
+    preference: 'light',
+  },
   content: {
     highlight: {
       theme: 'one-dark-pro',
