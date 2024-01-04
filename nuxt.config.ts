@@ -1,6 +1,5 @@
 export default defineNuxtConfig({
   extends: 'content-wind',
-  ssr: true,
   app: {
     baseURL: '/',
     buildAssetsDir: 'assets',
