@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-const { navigation } = useContent()
+const { navigation } = await useContent()
 const appConfig = useAppConfig()
 </script>
 

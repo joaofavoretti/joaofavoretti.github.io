@@ -1,16 +1,18 @@
 <template>
-  <a :href="link" target="_blank">
-    <div :class="['card', colorMode.value === 'dark' ? 'card__dark' : 'card__light']">
-      <div class="card-image">
-        <img :src="img" alt="Card Image" />
+  <ColorScheme>
+    <a :href="link" target="_blank">
+      <div :class="['card', colorMode.value === 'light' ? 'card__light' : 'card__dark']">
+        <div class="card-image">
+          <img :src="img" alt="Card Image" />
+        </div>
+        <div class="card-details">
+          <h1>{{ title }}</h1>
+          <p class="card-details__subtitle">{{ subtitle }}</p>
+          <p class="card-details__note">{{ note }}</p>
+        </div>
       </div>
-      <div class="card-details">
-        <h1>{{ title }}</h1>
-        <p class="card-details__subtitle">{{ subtitle }}</p>
-        <p class="card-details__note">{{ note }}</p>
-      </div>
-    </div>
-  </a>
+    </a>
+  </ColorScheme>
 </template>
       
 <script setup>
