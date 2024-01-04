@@ -5,10 +5,12 @@
     "dev": "nuxi dev",
     "build": "nuxi build",
     "generate": "nuxi generate",
-    "preview": "nuxi preview"
+    "preview": "nuxi preview",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "content-wind": "latest",
+    "gh-pages": "^6.1.1",
     "nuxt": "latest"
   }
 }
