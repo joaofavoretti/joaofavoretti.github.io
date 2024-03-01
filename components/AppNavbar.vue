@@ -16,7 +16,8 @@ const appConfig = useAppConfig()
       >
         {{ link.title }}
       </NuxtLink>
-      <a href="/resume.pdf">Resume</a>
+      <a href="/resume.pdf" class="mr-6">Resume</a>
+      <a href="https://joaofavoretti.blogspot.com/">Blog</a>
     </div>
     <!-- Social icons & Color Mode -->
     <div class="space-x-3 transition text-gray-500">
